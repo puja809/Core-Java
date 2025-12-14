@@ -18,7 +18,7 @@ public class static_var {
         obj2.model="Apple";
         obj2.price=30000;
 
-        obj1.name="Phone";//static variables can be used by any objects and value will be common for all
+        Mobile.name="Phone";//static variables can be used without creating objects
 
         obj1.show_data();
         obj2.show_data();
