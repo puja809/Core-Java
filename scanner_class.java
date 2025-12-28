@@ -13,6 +13,8 @@ public class scanner_class {
         String str=obj.nextLine();//takes a sentence
         String str1=obj.next();//takes input until it meets a space
         System.out.println("You entered: "+str);
+        char ch=obj.next().charAt(0);//returns a character at index 0
+        System.out.println(ch);
         obj.close();
     }
 }
