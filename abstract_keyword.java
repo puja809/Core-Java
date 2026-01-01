@@ -7,7 +7,7 @@ abstract class Rocket{
 }
 
 
-class Plane extends Rocket{
+class Plane extends Rocket{ //concrete class
     public void fly(){
         System.out.println("This object can fly...");
     }
